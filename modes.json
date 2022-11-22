@@ -1,0 +1,40 @@
+{
+  "modes": ["Equalizer", "Music", "Vowels", "Pitch Shift"],
+  "Equalizer": {
+    "num_sliders": 10,
+    "sliders": []
+  },
+  "Music": {
+    "num_sliders": 3,
+    "sliders": [
+      { "label": "Flute", "range": [[0, 700]],"max_value": 15,"min_value": -15.0,"default":0.0},
+      { "label": "Violin", "range": [[700, 2500]],"max_value": 15,"min_value": -15.0,"default":0.0},
+      { "label": "Trombone", "range": [[2500, 4000]],"max_value": 15,"min_value": -15.0,"default":0.0 }
+    ]
+  },
+  "Vowels": {
+    "num_sliders": 2,
+    "sliders": [
+      {
+        "label": "s",
+        "range": [
+          [4500, 8500]
+        ],"max_value": 15.0,"min_value": -15.0,"default":0.0
+      },
+      {
+        "label": "y",
+        "range": [
+          [600, 1800]
+        ],"max_value": 15.0,"min_value": -15.0,"default":0.0
+      }
+    ]
+  },
+  "Pitch Shift": {
+    "num_sliders": 2,
+    "sliders": [{
+      "label": "Shift","max_value": 5.0,"min_value": -5.0,"default":0.0
+    },{
+      "label": "Stretch","max_value": 5.0,"min_value": 0.1,"default":1.0
+    }]
+  }
+}
