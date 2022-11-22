@@ -1,4 +1,4 @@
-# SigEqualizer-Audio
+# SigEqual-Equalizer-Studio
 
 ## Table of contents:
 - [Introduction](#introduction)
