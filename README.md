@@ -3,6 +3,7 @@
 ## Table of contents:
 - [Introduction](#introduction)
 - [Project Features](#project-features)
+- [Project Demo](#project-demo)
 - [Project Structure](#project-structure)
 - [How to Run The Project](#run-the-project)
 - [Team]()
@@ -26,7 +27,7 @@ In this web application you can
 
 > 4. Plot the signal in Frequency Domain as Spectrogram Graph where you can show/hide it
 
-> 5. Switch to general equalizier mode  
+> 5. Switch to general equalizer mode  
 
 > 6. Switch to music mode where you can remove audio instruments from the audio
 
@@ -34,6 +35,8 @@ In this web application you can
 
 > 8. Switch to pitch shifting mode where you can change the audio speed and change the audio pitch
 
+### Project Demo
+![Demo](Equalizer_Studio_Demo.gif)
 
 ### Project Structure
 The Web Application is built using:

@@ -84,6 +84,7 @@ else:
 
 if len(signal.shape)>1:
     signal=signal[:,0]
+
 time = signal.shape[0] / sample_rate
 st.session_state["time"] = np.linspace(0, signal.shape[0], signal.shape[0])
 mono = signal.copy()
